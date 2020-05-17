@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./calculator.css">
+    <script src="./calculator.js"></script>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="row">
+            <div class="screen" id="screen">0</div>
+        </div>
+        <div class="row">
+            <button class="calc-button" onclick="onNumberClick('1')">1</button>
+            <button class="calc-button" onclick="onNumberClick('2')">2</button>
+            <button class="calc-button" onclick="onNumberClick('3')">3</button>
+            <button class="calc-button" onclick="onOperatorClick('+')">+</button>
+        </div>
+        <div class="row">
+            <button class="calc-button" onclick="onNumberClick('4')">4</button>
+            <button class="calc-button" onclick="onNumberClick('5')">5</button>
+            <button class="calc-button" onclick="onNumberClick('6')">6</button>
+            <button class="calc-button" onclick="onOperatorClick('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="calc-button" onclick="onNumberClick('7')">7</button>
+            <button class="calc-button" onclick="onNumberClick('8')">8</button>
+            <button class="calc-button" onclick="onNumberClick('9')">9</button>
+            <button class="calc-button" onclick="onOperatorClick('x')">x</button>
+        </div>
+        <div class="row">
+            <button class="calc-button" onclick="onShowResultClick()">=</button>
+            <button class="calc-button" onclick="onNumberClick('0')">0</button>
+            <button class="calc-button" onclick="onClearClick()">C</button>
+            <button class="calc-button" onclick="onOperatorClick('/')">/</button>
+        </div>
+    </div>
+</body>
