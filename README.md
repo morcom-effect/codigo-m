@@ -1,1 +1,5 @@
-# codigo-m
+# Aprendiendo HTML
+
+Un documento HTML es un archivo que contiene leguaje marcado de hipertexto. El codigo de HTML esta basado en tags, o palabras escondidas, que proveen instrucciones para formatear el documento. Un tag comienza con un soporte angular `<`. El tag tambien termina con un soporte angular `>`. El tag le dice al programa, usualmente un buscador como Google Chrome, que hacer con el texto. Por ejemplo `<a href="http://google.com">Link a Google</a>`indica que el texto sera un link a la pagina de inicio de Google.
+
+HTML es definido por el consorcio de la red mundial (World Wide Web Consortium), una organizacion que rige los estandares del Internet. Cada version de HTML tiene una colleccion de definiciones. Recureda que el HTML no es un lenguaje de programacion, aunque usualmente nos referimos a el como un lenguaje, un lenguaje de programacion requiere el procesamiento de declaraciones logicas y matematcas. HTML solo permite al desarrollador creat documentos de texto que se vean atractivos y placenteros. En la mayoria de los casos el codigo HTML va acompañado de Javascript y CSS, los cuales cubriremos mas adelante.
