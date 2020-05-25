@@ -135,7 +135,7 @@ En este ejercicio crearemos un documeto html basico con texto sin estilos que co
     
 4. Reinicia el documento en el buscador Chrome para ver los cambios reflejados (Ctrl+R Windows - CMD+R Mac)
 
-5 Crea tu contenido e insertalo con los tags correspondientes en el documento html.
+5. Crea tu contenido e insertalo con los tags correspondientes en el documento html.
 
 6. Para insertar la foto en el documento necesitas copiar y pegar la foto al lado del archivo profile.html.
 
