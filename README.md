@@ -39,6 +39,53 @@ Un ejemplo de esto es un bloque de texto con un enlace:
 
 > <div>Este es mi bloque de texto con un <a href="http://google.com">link a Google</a></div>
 
+## Estructura de un documento HTML
+
+Un documento HTML se compone de al menos 5 elementos basicos.
+
+### Tipo de documento
+
+El tipo de documento o `doctype` indica que version de html se utiliza. La version defacto es HTML 5, y para propositos de este tutorial solo usaremos esa.
+
+    <!doctype html>
+
+### Elemento HTML principal
+
+El elemento HTML principal simplemente contiene todo el documento, y en casos mas especificos puede determinar algunos atributos como el lenguaje del documento (Expañol, Ingles, etc.) 
+
+    <html> </html>
+    
+### Encabezado del documento
+
+El encabezado del documento es utilizado para importar documentos que necesitaremos en el cuerpo del documento y contiene algunos atributos de la pagina como el titulo de la pestaña (tab) en el buscador.
+
+    <head>
+        <title>A Profile Title</title>
+    </head>
+
+### Cuerpo del documento
+
+El cuerpo del documento contiene todo el contenido que sera desplegado al usuario en el buscador.
+
+    <body>
+        <div> Todo el texto a desplegar en la pagina. </div>
+    </body>
+    
+### Un documento modelo
+
+Aqui se muestra un documento modelo con titulo y un cuerpo basico.
+
+    <!doctype html>
+    <html>
+         <head>
+            <title> A Profile Title </title>
+         </head>
+         <body>
+            <div> Todo el texto a desplegar en la pagina. </div>
+         </body>
+    </html>
+
+
 ## Modelo de Objetos del Documento (DOM)
 
 El Modelo de Objetos del Documento (DOM) es una interface para documentos HTML. Proporciona una representación estructural del documento, permitiendo la modificación de su contenido o su presentación visual. Esencialmente, comunica las páginas web con los scripts o los lenguajes de programación. Buscadores como Google Chrome, se encargan de crear un DOM, basado en un file HTML el cual utilizan para desplegarle al usuario.
