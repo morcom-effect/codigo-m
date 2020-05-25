@@ -143,7 +143,7 @@ En este ejercicio crearemos un documeto html basico con texto sin estilos que co
 
 8. Añade el tag de la imagen apuntando a la foto copiada
 
-    <img src="./me.jpg" style="width: 80px;" alt="Entra la descripcion de la foto si deseas">
+        <img src="./me.jpg" style="width: 80px;" alt="Entra la descripcion de la foto si deseas">
 
 
 
