@@ -94,6 +94,11 @@ Vamos a inspecionar el DOM de esta pagina que estas leyendo ahora mismo. Presion
 
 ![DevTool](https://developers.google.com/web/tools/chrome-devtools/images/panels/elements.png)
 
+# Creando nuestra pagina de presentacion HTML
+
+En este ejercicio crearemos un documeto html basico con texto sin estilos que contendra el contenido de nuestra pagina de presentacion. Al final del ejercicio deberemos tener algo como lo siguiente:
+
+(foto pagina luis)
 
 ## Elementos que utilizaremos
 
@@ -105,6 +110,40 @@ Vamos a inspecionar el DOM de esta pagina que estas leyendo ahora mismo. Presion
 | [`img`](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/img) | Elemento para desplegar una imagen | `<img src="https://secure.img1-fg.wfcdn.com/im/98270403/resize-h800-w800%5Ecompr-r85/8470/84707680/Pokemon+Pikachu+Wall+Decal.jpg" width="50px"></img>` |  <img src="https://secure.img1-fg.wfcdn.com/im/98270403/resize-h800-w800%5Ecompr-r85/8470/84707680/Pokemon+Pikachu+Wall+Decal.jpg" width="50px"></img> |
 | [`script`](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/script) | Elemento para importar un codigo de Javascript | `<script src="./calculator.js"></script>` |  No disponible |
 | [`link`](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/link) | Elemento para importar estilos CSS entre otros | `<link rel="stylesheet" href="./calculator.css">` |  No disponible |
+
+## Crear documento html basico y abrirlo en el buscador Chrome
+
+1. Abre el directorio `aprendiendo-html` en Visual Studio Code
+
+2. Abre el documento `profile.html` en el buscador y observa la pagina en blanco
+
+3. Copia y pega el documento html modelo en el archivo y guarda el documento (Ctrl+S Windows - CMD+S Mac)
+
+    <!doctype html>
+    <html>
+         <head>
+            <title> A Profile Title </title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         </head>
+         <body>
+            <div> Todo el texto a desplegar en la pagina. </div>
+             <a href="http://google.com" target="_blank" class="fa fa-linkedin"></a>
+             <a href="http://google.com" target="_blank" class="fa fa-github"></a>
+             <a href="http://google.com" class="fa fa-calculator"></a>
+         </body>
+    </html>
+    
+4. Reinicia el documento en el buscador Chrome para ver los cambios reflejados (Ctrl+R Windows - CMD+R Mac)
+
+5 Crea tu contenido e insertalo con los tags correspondientes en el documento html.
+
+6. Para insertar la foto en el documento necesitas copiar y pegar la foto al lado del archivo profile.html.
+
+7. Cambiale el nombre a la foto a `me.jpg` o `me.png` dependiendo de la extension del archivo.
+
+8. Añade el tag de la imagen apuntando a la foto copiada
+
+    <img src="./me.jpg" style="width: 80px;" alt="Entra la descripcion de la foto si deseas">
 
 
 
