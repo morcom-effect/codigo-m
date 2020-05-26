@@ -25,7 +25,8 @@ La organizacion de documentos y directorios en una computadora tiene la estructu
 
 Utilizando el interfaz grafico, navegar desde el directorio raiz hasta Documentos se veria de la siguiente manera en Windows:
 
-|<figure><img src="CPath.png" /><figcaption><b>Figura 1</b> - Directorio de la Computadora</figcaption></figure>|<figure><img src="UsersPath.png" /><figcaption><b>Figura 2</b> - Directorio Users</figcaption></figure>|
+|<figure>
+<img src="CPath.png" /><figcaption><b>Figura 1</b> - Directorio de la Computadora</figcaption></figure>|<figure><img src="UsersPath.png" /><figcaption><b>Figura 2</b> - Directorio Users</figcaption></figure>|
 |---|---|
 |<figure><img src="luisrPath.png" /><figcaption><b>Figura 3</b> - Directorio luisr</figcaption></figure>|<figure><img src="DocumentsPath.png" /><figcaption><b>Figura 4</b> - Directorio Documents</figcaption></figure>|
 
@@ -35,7 +36,12 @@ En este ejemplo, para accesar al directorio documents desde el directorio raiz s
 
             cd Users\luisr\Documents
 
-<figure><img src="CDDocuments.png" /><figcaption><b>Figura 5</b> - Instruccion cd</figcaption></figure>
+<figure>
+    <img src="CDDocuments.png" />
+    <figcaption>
+        <b>Figura 5</b> - Instruccion <b>cd</b>
+    <figcaption>
+</figure>
 
 En el terminal de la computadora Mac, los "\\" se reemplazan con "/" para dividir los directorios. 
 
@@ -44,7 +50,19 @@ En el terminal de la computadora Mac, los "\\" se reemplazan con "/" para dividi
 La instruccion **ls** en el terminal de Mac se utiliza para mostrar todos los directorios y documentos que existen en un directorio. Sin embargo, en el terminal de Windows, se utiliza otra instruccion; la instruccion **dir**. A diferencia de la instruccion **ls**, la instruccion **dir** muestra la ultima fecha en que se modifico el directorio o documento y diferencia los directorios de los documentos.
 
 
-<figure><img src="lsTerminal.png" /><figcaption><b>Figura 6</b> - **ls** en Mac</figcaption></figure><figure><img src="dirTerminal.png" /><figcaption><b>Figura 7</b> - **dir** en Windows</figcaption></figure>
+<figure>
+    <img src="lsTerminal.png" />
+    <figcaption>
+        <b>Figura 6</b> - <b>ls</b> en Mac
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="dirTerminal.png" />
+    <figcaption>
+        <b>Figura 7</b> - <b>dir</b> en Windows
+    </figcaption>
+</figure>
 
 ### Instruccion mkdir/md
 
