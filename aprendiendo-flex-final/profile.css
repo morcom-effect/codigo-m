@@ -1,0 +1,44 @@
+* * {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.half-width {
+    width: 50%;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    width: 30%;
+    background-color: #f1f1f1;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/* Main column */
+.main {
+    width: 70%;
+    background-color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
